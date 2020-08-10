@@ -10,6 +10,7 @@ Your choice: """
 
 
 def menu():
+    database.create_tables()
     while True:
         user_input = input(USER_CHOICE).upper()
         if user_input == 'Q':

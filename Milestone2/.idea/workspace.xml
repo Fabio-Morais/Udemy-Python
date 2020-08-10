@@ -25,10 +25,33 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="sqlite" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.app (1)">
+    <configuration name="app (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Milestone2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="app" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Milestone2" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -51,6 +74,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="lesson" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../lesson" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../lesson/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.app (1)" />
+        <item itemvalue="Python.main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -61,6 +112,7 @@
       <option name="presentableId" value="Default" />
       <updated>1596799603067</updated>
       <workItem from="1596799610542" duration="4565000" />
+      <workItem from="1596875842754" duration="7191000" />
     </task>
     <servers />
   </component>
@@ -68,24 +120,46 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="343" key="GridCell.Tab.0.bottom" timestamp="1596805844643">
+    <state x="452" y="667" key="#SQL_Dialects" timestamp="1596881545576">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="452" y="667" key="#SQL_Dialects/0.0.1920.1040@0.0.1920.1040" timestamp="1596881545576" />
+    <state x="0" y="356" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596881564141">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="0" y="356" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596881564141" />
+    <state x="582" y="403" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596876081613">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="582" y="403" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1596876081613" />
+    <state width="914" height="451" key="GridCell.Tab.0.bottom" timestamp="1596924033063">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="343" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1366.0.1366.728@0.0.1920.1040" timestamp="1596805844643" />
-    <state width="1877" height="343" key="GridCell.Tab.0.center" timestamp="1596805844643">
+    <state width="914" height="451" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1366.312.1366.728@0.0.1920.1040" timestamp="1596924033063" />
+    <state width="1877" height="132" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596881602734" />
+    <state width="914" height="451" key="GridCell.Tab.0.center" timestamp="1596924033063">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="343" key="GridCell.Tab.0.center/0.0.1920.1040/-1366.0.1366.728@0.0.1920.1040" timestamp="1596805844643" />
-    <state width="1877" height="343" key="GridCell.Tab.0.left" timestamp="1596805844643">
+    <state width="914" height="451" key="GridCell.Tab.0.center/0.0.1920.1040/-1366.312.1366.728@0.0.1920.1040" timestamp="1596924033063" />
+    <state width="1877" height="132" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596881602734" />
+    <state width="914" height="451" key="GridCell.Tab.0.left" timestamp="1596924033063">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="343" key="GridCell.Tab.0.left/0.0.1920.1040/-1366.0.1366.728@0.0.1920.1040" timestamp="1596805844643" />
-    <state width="1877" height="343" key="GridCell.Tab.0.right" timestamp="1596805844643">
+    <state width="914" height="451" key="GridCell.Tab.0.left/0.0.1920.1040/-1366.312.1366.728@0.0.1920.1040" timestamp="1596924033063" />
+    <state width="1877" height="132" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596881602734" />
+    <state width="914" height="451" key="GridCell.Tab.0.right" timestamp="1596924033063">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="343" key="GridCell.Tab.0.right/0.0.1920.1040/-1366.0.1366.728@0.0.1920.1040" timestamp="1596805844643" />
+    <state width="914" height="451" key="GridCell.Tab.0.right/0.0.1920.1040/-1366.312.1366.728@0.0.1920.1040" timestamp="1596924033063" />
+    <state width="1877" height="132" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596881602734" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Milestone2$app.coverage" NAME="app Coverage Results" MODIFIED="1596805844631" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Milestone2$main.coverage" NAME="main Coverage Results" MODIFIED="1596881599683" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../lesson" />
+    <SUITE FILE_PATH="coverage/Milestone2$app__1_.coverage" NAME="app (1) Coverage Results" MODIFIED="1596913079347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Milestone2$app.coverage" NAME="app Coverage Results" MODIFIED="1596875909544" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
