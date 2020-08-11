@@ -29,7 +29,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
-  <component name="RunManager" selected="Python.app (1)">
+  <component name="RunManager" selected="Python.main">
     <configuration name="app (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Milestone2" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -98,8 +98,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.app (1)" />
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.app (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -113,6 +113,9 @@
       <updated>1596799603067</updated>
       <workItem from="1596799610542" duration="4565000" />
       <workItem from="1596875842754" duration="7191000" />
+      <workItem from="1597048875312" duration="240000" />
+      <workItem from="1597056939556" duration="4423000" />
+      <workItem from="1597137430999" duration="1824000" />
     </task>
     <servers />
   </component>
@@ -132,34 +135,54 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="582" y="403" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1596876081613" />
-    <state width="914" height="451" key="GridCell.Tab.0.bottom" timestamp="1596924033063">
+    <state width="1877" height="291" key="GridCell.Tab.0.bottom" timestamp="1597138973247">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="343" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1366.0.1366.728@0.0.1920.1040" timestamp="1596805844643" />
-    <state width="914" height="451" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1366.312.1366.728@0.0.1920.1040" timestamp="1596924033063" />
-    <state width="1877" height="132" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596881602734" />
-    <state width="914" height="451" key="GridCell.Tab.0.center" timestamp="1596924033063">
+    <state width="1323" height="291" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1366.312.1366.728@-1366.312.1366.728" timestamp="1597064079994" />
+    <state width="1877" height="291" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1366.312.1366.728@0.0.1920.1040" timestamp="1597138973247" />
+    <state width="1877" height="452" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597057634717" />
+    <state width="1877" height="291" key="GridCell.Tab.0.center" timestamp="1597138973247">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="343" key="GridCell.Tab.0.center/0.0.1920.1040/-1366.0.1366.728@0.0.1920.1040" timestamp="1596805844643" />
-    <state width="914" height="451" key="GridCell.Tab.0.center/0.0.1920.1040/-1366.312.1366.728@0.0.1920.1040" timestamp="1596924033063" />
-    <state width="1877" height="132" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596881602734" />
-    <state width="914" height="451" key="GridCell.Tab.0.left" timestamp="1596924033063">
+    <state width="1323" height="291" key="GridCell.Tab.0.center/0.0.1920.1040/-1366.312.1366.728@-1366.312.1366.728" timestamp="1597064079994" />
+    <state width="1877" height="291" key="GridCell.Tab.0.center/0.0.1920.1040/-1366.312.1366.728@0.0.1920.1040" timestamp="1597138973247" />
+    <state width="1877" height="452" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597057634717" />
+    <state width="1877" height="291" key="GridCell.Tab.0.left" timestamp="1597138973247">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="343" key="GridCell.Tab.0.left/0.0.1920.1040/-1366.0.1366.728@0.0.1920.1040" timestamp="1596805844643" />
-    <state width="914" height="451" key="GridCell.Tab.0.left/0.0.1920.1040/-1366.312.1366.728@0.0.1920.1040" timestamp="1596924033063" />
-    <state width="1877" height="132" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596881602734" />
-    <state width="914" height="451" key="GridCell.Tab.0.right" timestamp="1596924033063">
+    <state width="1323" height="291" key="GridCell.Tab.0.left/0.0.1920.1040/-1366.312.1366.728@-1366.312.1366.728" timestamp="1597064079994" />
+    <state width="1877" height="291" key="GridCell.Tab.0.left/0.0.1920.1040/-1366.312.1366.728@0.0.1920.1040" timestamp="1597138973247" />
+    <state width="1877" height="452" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597057634717" />
+    <state width="1877" height="291" key="GridCell.Tab.0.right" timestamp="1597138973247">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="343" key="GridCell.Tab.0.right/0.0.1920.1040/-1366.0.1366.728@0.0.1920.1040" timestamp="1596805844643" />
-    <state width="914" height="451" key="GridCell.Tab.0.right/0.0.1920.1040/-1366.312.1366.728@0.0.1920.1040" timestamp="1596924033063" />
-    <state width="1877" height="132" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596881602734" />
+    <state width="1323" height="291" key="GridCell.Tab.0.right/0.0.1920.1040/-1366.312.1366.728@-1366.312.1366.728" timestamp="1597064079994" />
+    <state width="1877" height="291" key="GridCell.Tab.0.right/0.0.1920.1040/-1366.312.1366.728@0.0.1920.1040" timestamp="1597138973247" />
+    <state width="1877" height="452" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597057634717" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1597138594929">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1366.312.1366.728@0.0.1920.1040" timestamp="1597138594929" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1597138594929">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/-1366.312.1366.728@0.0.1920.1040" timestamp="1597138594929" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1597138594929">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/-1366.312.1366.728@0.0.1920.1040" timestamp="1597138594929" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1597138594929">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/-1366.312.1366.728@0.0.1920.1040" timestamp="1597138594929" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Milestone2$main.coverage" NAME="main Coverage Results" MODIFIED="1596881599683" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../lesson" />
-    <SUITE FILE_PATH="coverage/Milestone2$app__1_.coverage" NAME="app (1) Coverage Results" MODIFIED="1596913079347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Milestone2$main.coverage" NAME="main Coverage Results" MODIFIED="1597138973237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../lesson" />
+    <SUITE FILE_PATH="coverage/Milestone2$app__1_.coverage" NAME="app (1) Coverage Results" MODIFIED="1597057628921" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Milestone2$app.coverage" NAME="app Coverage Results" MODIFIED="1596875909544" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
