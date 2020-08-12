@@ -1,56 +1,94 @@
-from collections import defaultdict, OrderedDict, namedtuple, deque
+"""
+In its simplest term, the `logging` module is used to print things out (to the console or to a file).
 
+The `logging` module should be used to communicate with the developer (e.g. information about what’s happening; when an error happens; a critical problem; etc…).
 
-def task1() -> defaultdict:
-    """
-    - create a `defaultdict` object, and its default value would be set to the string `Unknown`.
-    - Add an entry with key name `Alan` and its value being `Manchester`.
-    - Return the `defaultdict` object you created.
-    """
-    # you code starts here:
-    dic = defaultdict(lambda : 'Unknown')
-    dic['Alan'] = 'Manchester'
-    return dic
+To communicate with the user, continue using `print()` and `input()`.
 
-def task2(arg_od: OrderedDict):
-    """
-    - takes in an OrderedDict `arg_od`
-    - Remove the first and last entry in `arg_od`.
-    - Move the entry with key name `Bob` to the end of `arg_od`.
-    - Move the entry with key name `Dan` to the start of `arg_od`.
-    - You may assume that `arg_od` would always contain the keys `Bob` and `Dan`,
-        and they won't be the first or last entry initially.
-    """
-    # you code starts here:
-    arg_od.popitem(False)
-    arg_od.popitem(True)
-    arg_od.move_to_end('Bob', True)
-    arg_od.move_to_end('Dan', False)
+To use logging, we just have to import the `logging` module and get a new logger:
+"""
 
+import logging
 
-def task3(name: str, club: str) -> namedtuple:
-    """
-    - create a `namedtuple` with type `Player`, and it will have two fields, `name` and `club`.
-    - create a `Player` `namedtuple` instance that has the `name` and `club` field set by the given arguments.
-    - return the `Player` `namedtuple` instance you created.
-    """
-    # you code starts here:
-    Player = namedtuple('Player', ['name', 'club'])
-    player = Player(name, club)
-    return player
+logger = logging.getLogger('test_logger')
 
+logger.info("This won't show up.")
+logger.warning('This will.')
 
-def task4(arg_deque: deque):
-    """
-    - Manipulate the `arg_deque` in any order you preferred to achieve the following effect:
-        -- remove last element in `deque`
-        -- move the fist (left most) element to the end (right most)
-        -- add an element `Zack`, a string, to the start (left)
-    """
-    # you code starts here:
-    arg_deque.pop()
-    a = arg_deque.popleft()
-    arg_deque.append(a)
-    arg_deque.appendleft('Zack')
+"""
+There are various logging levels (below in ascending order of criticality), for you to use depending on the circumstance:
 
-print(task3('fcp', 'lol'))
+DEBUG
+INFO
+WARNING
+ERROR
+CRITICAL
+
+So if you’re logging for help while developing or debugging, use the `DEBUG` level (`logger.debug('message')`).
+
+If your program’s about to crash because a critical exception happened; use `logger.critical()`.
+
+You can configure the output so all messages are shown, not just warning and above:
+"""
+
+logging.basicConfig(level=logging.DEBUG)
+
+"""
+You can configure the output to include more than just the level and the logger used. You can add for example the time:
+"""
+
+logging.basicConfig(format='%(asctime)s %(levelname)s:%(message)s', level=logging.DEBUG)
+
+"""
+Or below, an example of a great way to configure your logger for maximum readability and usefulness.
+
+Of course, as you go through your Python journey you may encounter situations where using a differently-configured logger would be better. Or when you’ll work with people who want logging in a particular way.
+
+You’ll then have to decide how you want to log things, and as most things in software that should be a team decision.
+"""
+
+import logging
+
+logging.basicConfig(format='%(asctime)s %(levelname)-8s [%(filename)s:%(lineno)d] %(message)s',
+    datefmt='%d-%m-%Y:%H:%M:%S',
+    level=logging.DEBUG)
+
+logger = logging.getLogger('my_app')
+logger.debug("This is a debug log")
+logger.info("This is an info log")
+logger.critical("This is critical")
+logger.error("An error occurred")
+
+"""
+And if you wanted your applications logs to go to a file instead of the console, do something like this:
+"""
+
+logging.basicConfig(format='%(asctime)s %(levelname)-8s [%(filename)s:%(lineno)d] %(message)s',
+    datefmt='%d-%m-%Y:%H:%M:%S',
+    level=logging.DEBUG,
+    filename='logs.txt')
+
+"""
+If you call `logging.getLogger('my_app')` from many different files, you’ll always get the same `Logger` object—so any configuration changes and the handler added will be reflected throughout all the app.
+
+If you want to use a different name but want the configuration to be kept between handlers, the best way is to create child handlers:
+"""
+
+import logging
+
+logging.basicConfig(format='%(asctime)s %(levelname)-8s [%(filename)s:%(lineno)d] %(message)s',
+    datefmt='%d-%m-%Y:%H:%M:%S',
+    level=logging.DEBUG,
+    filename='logs.txt')
+logger = logging.getLogger('my_app')
+logger.debug("This is a debug log")
+logger.info("This is an info log")
+logger.critical("This is critical")
+logger.error("An error occurred")
+logger = logging.getLogger('my_app')
+
+another_logger = logging.getLogger('my_app.database')  # gets a child logger called 'database' of 'my_app'
+
+"""
+Add logging to your projects moving forward! It’s great when you can trace what was happening in your system as it happened with extensive logs (although, it does mean the code will be longer since you need to include logging statements everywhere).
+"""
