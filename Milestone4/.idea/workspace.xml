@@ -26,6 +26,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../complete-python-course/course_contents/12_browser_automation_selenium/lectures/11_adding_waits_to_our_code" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager" selected="Python.menu">
@@ -114,6 +115,7 @@
       <workItem from="1597391899244" duration="2941000" />
       <workItem from="1597478697881" duration="3068000" />
       <workItem from="1597571154595" duration="285000" />
+      <workItem from="1598200473119" duration="2095000" />
     </task>
     <servers />
   </component>
@@ -121,6 +123,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="-903" y="430" key="FileChooserDialogImpl" timestamp="1598200895113">
+      <screen x="-1366" y="312" width="1366" height="728" />
+    </state>
+    <state x="-903" y="430" key="FileChooserDialogImpl/0.0.1920.1040/-1366.312.1366.728@-1366.312.1366.728" timestamp="1598200895113" />
     <state width="1877" height="335" key="GridCell.Tab.0.bottom" timestamp="1597509354149">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

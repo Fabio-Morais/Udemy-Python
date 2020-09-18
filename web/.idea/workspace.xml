@@ -29,6 +29,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -54,6 +55,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -96,6 +98,8 @@
       <option name="presentableId" value="Default" />
       <updated>1598033812419</updated>
       <workItem from="1598033813563" duration="3674000" />
+      <workItem from="1598200260569" duration="104000" />
+      <workItem from="1598213879952" duration="3363000" />
     </task>
     <servers />
   </component>
@@ -112,34 +116,35 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="739" y="274" key="FileChooserDialogImpl" timestamp="1598034014613">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="739" y="274" key="FileChooserDialogImpl/0.0.1920.1040/-1366.312.1366.728@0.0.1920.1040" timestamp="1598034014613" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1598045979466">
+    <state width="1877" height="265" key="GridCell.Tab.0.bottom" timestamp="1598218146914">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1366.312.1366.728@0.0.1920.1040" timestamp="1598045979466" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1598045979466">
+    <state width="1877" height="265" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1366.312.1366.728@0.0.1920.1040" timestamp="1598218146914" />
+    <state width="1877" height="265" key="GridCell.Tab.0.center" timestamp="1598218146914">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1366.312.1366.728@0.0.1920.1040" timestamp="1598045979466" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1598045979466">
+    <state width="1877" height="265" key="GridCell.Tab.0.center/0.0.1920.1040/-1366.312.1366.728@0.0.1920.1040" timestamp="1598218146913" />
+    <state width="1877" height="265" key="GridCell.Tab.0.left" timestamp="1598218146913">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1366.312.1366.728@0.0.1920.1040" timestamp="1598045979466" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1598045979466">
+    <state width="1877" height="265" key="GridCell.Tab.0.left/0.0.1920.1040/-1366.312.1366.728@0.0.1920.1040" timestamp="1598218146913" />
+    <state width="1877" height="265" key="GridCell.Tab.0.right" timestamp="1598218146914">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1366.312.1366.728@0.0.1920.1040" timestamp="1598045979466" />
+    <state width="1877" height="265" key="GridCell.Tab.0.right/0.0.1920.1040/-1366.312.1366.728@0.0.1920.1040" timestamp="1598218146914" />
     <state x="461" y="164" key="SettingsEditor" timestamp="1598034055846">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040/-1366.312.1366.728@0.0.1920.1040" timestamp="1598034055846" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/web$app.coverage" NAME="app Coverage Results" MODIFIED="1598042167944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/web$app.coverage" NAME="app Coverage Results" MODIFIED="1598216908155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

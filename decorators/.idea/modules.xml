@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../../complete-python-course/course_contents/18_advanced_oop/sample_code/1-multiple-inheritance/.idea/1-multiple-inheritance.iml" filepath="$PROJECT_DIR$/../../complete-python-course/course_contents/18_advanced_oop/sample_code/1-multiple-inheritance/.idea/1-multiple-inheritance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../complete-python-course/course_contents/18_advanced_oop/sample_code/2-abc/.idea/2-abc.iml" filepath="$PROJECT_DIR$/../../complete-python-course/course_contents/18_advanced_oop/sample_code/2-abc/.idea/2-abc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../complete-python-course/course_contents/18_advanced_oop/sample_code/3-abc-2/.idea/3-abc-2.iml" filepath="$PROJECT_DIR$/../../complete-python-course/course_contents/18_advanced_oop/sample_code/3-abc-2/.idea/3-abc-2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../complete-python-course/course_contents/18_advanced_oop/sample_code/4-abc-3-and-interfaces/.idea/4-abc-3-and-interfaces.iml" filepath="$PROJECT_DIR$/../../complete-python-course/course_contents/18_advanced_oop/sample_code/4-abc-3-and-interfaces/.idea/4-abc-3-and-interfaces.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../complete-python-course/course_contents/18_advanced_oop/sample_code/5-property-setters/.idea/5-property-setters.iml" filepath="$PROJECT_DIR$/../../complete-python-course/course_contents/18_advanced_oop/sample_code/5-property-setters/.idea/5-property-setters.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/decorators.iml" filepath="$PROJECT_DIR$/.idea/decorators.iml" />
+    </modules>
+  </component>
+</project>

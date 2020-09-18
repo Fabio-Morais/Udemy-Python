@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="PYTHON_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="1-multiple-inheritance" />
+    <orderEntry type="module" module-name="2-abc" />
+    <orderEntry type="module" module-name="3-abc-2" />
+    <orderEntry type="module" module-name="4-abc-3-and-interfaces" />
+    <orderEntry type="module" module-name="5-property-setters" />
+  </component>
+</module>
